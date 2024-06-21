@@ -32,7 +32,7 @@ async def strcall(client, message):
 
         # إضافة زر شفاف في الأسفل
         inline_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🫦تحديثات السورس ♪", url=config.SUPPORT_CHAT)],
+            [InlineKeyboardButton("𝒔𝒐𝒖𝒓𝒄𝒆 𝒄𝒎 ♪", url=config.SUPPORT_CHAT)],
         ])      
 
         await message.reply(f"{text}", reply_markup=inline_keyboard)
@@ -59,6 +59,6 @@ async def strcall(client, message):
 
         # إضافة زر شفاف في الأسفل
         inline_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🫦تحديثات السورس  ♪", url=config.SUPPORT_CHAT)],
+            [InlineKeyboardButton(" 𝒔𝒐𝒖𝒓𝒄𝒆 𝒄𝒎 ♪", url=config.SUPPORT_CHAT)],
         ])
         await message.reply(f"{text}", reply_markup=inline_keyboard)
