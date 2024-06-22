@@ -19,7 +19,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/94df5f4f55429ace85e01.jpg",
+        photo=f"https://telegra.ph/file/e1e150db1fb721e7e6938.jpg",
         caption = f"""<b>  𝒘𝒆𝒍𝒄𝒐𝒎𝒆𝒖 𝒕𝒐 <b>\n<a href="https://t.me/ngd_1"> 𝒔𝒐𝒖𝒓𝒄𝒆 𝒄𝒎</a></b>""",
 reply_markup=InlineKeyboardMarkup(
             [
