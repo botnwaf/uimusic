@@ -33,7 +33,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/bblks/uimusic",
+    "https://github.com/botnwaf/uimusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -80,17 +80,17 @@ confirmer = {}
 
 
 START_IMG_URL = getenv("START_IMG_URL")
-PING_IMG_URL = "https://graph.org/file/d6f9b317ec88b61dc1ec9.jpg"
-PLAYLIST_IMG_URL = "https://graph.org/file/652fd5d4587fd12d49544.jpg"
-STATS_IMG_URL = "https://graph.org/file/652fd5d4587fd12d49544.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/652fd5d4587fd12d49544.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/652fd5d4587fd12d49544.jpg"
-STREAM_IMG_URL = "https://graph.org/file/d6f9b317ec88b61dc1ec9.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/d6f9b317ec88b61dc1ec9.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/652fd5d4587fd12d49544.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/d6f9b317ec88b61dc1ec9.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/d6f9b317ec88b61dc1ec9.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/d6f9b317ec88b61dc1ec9.jpg"
+PING_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/040dacb75aac1b7b4a640.jpg"
 
 
 def time_to_seconds(time):
